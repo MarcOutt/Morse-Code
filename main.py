@@ -1,4 +1,4 @@
-alphabet = {
+morse_code_alphabet = {
     "a": ".-",
     "b": "-...",
     "c": "-.-.",
@@ -42,8 +42,8 @@ alphabet = {
 def text_to_morse(text):
     text_code = ""
     for letter in text.lower():
-        if letter in alphabet:
-            text_code += alphabet[letter] + " "
+        if letter in morse_code_alphabet:
+            text_code += morse_code_alphabet[letter] + " "
     print(text_code)
 
 
@@ -51,7 +51,7 @@ def morse_to_text(code):
     code_list = code.split()
     text = ""
     for letter in code_list:
-        for key, value in alphabet.items():
+        for key, value in morse_code_alphabet.items():
             if letter == value:
                 text += key
     print(text)
