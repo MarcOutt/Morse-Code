@@ -2,7 +2,7 @@
 
 # Traducteur de Code Morse
 
-Un programme simple en Python qui traduit du texte en code Morse et vice versa. Le programme utilise un dictionnaire prédéfini (`alphabet`) qui fait correspondre des caractères à leurs représentations en code Morse.
+Un programme simple en Python qui traduit du texte en code Morse et vice versa. Le programme utilise un dictionnaire prédéfini (`morse_code_alphabet`) qui fait correspondre des caractères à leurs représentations en code Morse.
 
 ## Utilisation
 
